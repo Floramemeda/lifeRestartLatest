@@ -6,11 +6,11 @@ class Property {
     TYPES = {
         // 本局
         AGE: "AGE", // 年龄 age AGE
-        CHR: "CHR", // 颜值 charm CHR
-        INT: "INT", // 智力 intelligence INT
-        STR: "STR", // 体质 strength STR
-        MNY: "MNY", // 家境 money MNY
-        SPR: "SPR", // 快乐 spirit SPR
+        CHR: "CHR", // 仙姿 charm CHR
+        INT: "INT", // 悟性 intelligence INT
+        STR: "STR", // 根骨 strength STR
+        MNY: "MNY", // 灵石 money MNY
+        SPR: "SPR", // 心境 spirit SPR
         LIF: "LIF", // 生命 life LIFE
         TLT: "TLT", // 天赋 talent TLT
         EVT: "EVT", // 事件 event EVT
@@ -19,16 +19,16 @@ class Property {
         // Auto calc
         LAGE: "LAGE", // 最低年龄 Low Age
         HAGE: "HAGE", // 最高年龄 High Age
-        LCHR: "LCHR", // 最低颜值 Low Charm
-        HCHR: "HCHR", // 最高颜值 High Charm
-        LINT: "LINT", // 最低智力 Low Intelligence
-        HINT: "HINT", // 最高智力 High Intelligence
-        LSTR: "LSTR", // 最低体质 Low Strength
-        HSTR: "HSTR", // 最高体质 High Strength
-        LMNY: "LMNY", // 最低家境 Low Money
-        HMNY: "HMNY", // 最高家境 High Money
-        LSPR: "LSPR", // 最低快乐 Low Spirit
-        HSPR: "HSPR", // 最高快乐 High Spirit
+        LCHR: "LCHR", // 最低仙姿 Low Charm
+        HCHR: "HCHR", // 最高仙姿 High Charm
+        LINT: "LINT", // 最低悟性 Low Intelligence
+        HINT: "HINT", // 最高悟性 High Intelligence
+        LSTR: "LSTR", // 最低根骨 Low Strength
+        HSTR: "HSTR", // 最高根骨 High Strength
+        LMNY: "LMNY", // 最低灵石 Low Money
+        HMNY: "HMNY", // 最高灵石 High Money
+        LSPR: "LSPR", // 最低心境 Low Spirit
+        HSPR: "HSPR", // 最高心境 High Spirit
 
         SUM: "SUM", // 总评 summary SUM
 

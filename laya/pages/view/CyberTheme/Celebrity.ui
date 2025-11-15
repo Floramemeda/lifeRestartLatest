@@ -149,7 +149,7 @@
                                         },
                                         {
                                             "type":"Label",
-                                            "props":{"valign":"middle","text":"颜值10 智力10 体质10 家境Π","name":"label","fontSize":55,"font":"方正像素12","color":"#ffffff","centerY":0,"centerX":0,"align":"center"},
+                                            "props":{"valign":"middle","text":"仙姿10 悟性10 根骨10 灵石Π","name":"label","fontSize":55,"font":"方正像素12","color":"#ffffff","centerY":0,"centerX":0,"align":"center"},
                                             "nodeParent":12,
                                             "label":"Label(label)",
                                             "isDirectory":false,
@@ -173,7 +173,7 @@
                                     "child":[
                                         {
                                             "type":"Label",
-                                            "props":{"valign":"middle","text":"颜值10 智力10 体质10 家境Π","name":"label","height":100,"fontSize":55,"font":"方正像素12","color":"#ffffff","centerX":0,"align":"center"},
+                                            "props":{"valign":"middle","text":"仙姿10 悟性10 根骨10 灵石Π","name":"label","height":100,"fontSize":55,"font":"方正像素12","color":"#ffffff","centerX":0,"align":"center"},
                                             "nodeParent":11,
                                             "label":"Label(label)",
                                             "isDirectory":false,
@@ -211,7 +211,7 @@
                                 },
                                 {
                                     "type":"Label",
-                                    "props":{"valign":"middle","text":"颜值10 智力10 体质10 家境Π","name":"label","fontSize":50,"font":"方正像素12","color":"#ffffff","centerY":0,"centerX":0,"align":"center"},
+                                    "props":{"valign":"middle","text":"仙姿10 悟性10 根骨10 灵石Π","name":"label","fontSize":50,"font":"方正像素12","color":"#ffffff","centerY":0,"centerX":0,"align":"center"},
                                     "nodeParent":15,
                                     "label":"Label(label)",
                                     "isDirectory":false,

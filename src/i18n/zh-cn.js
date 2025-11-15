@@ -21,14 +21,14 @@ export default ({
     UI_Times: '次',
     UI_Count: '个',
 
-    UI_Property_Charm: '颜值',
-    UI_Property_Intelligence: '智力',
-    UI_Property_Strength: '体质',
-    UI_Property_Money: '家境',
-    UI_Property_Spirit: '快乐',
+    UI_Property_Charm: '仙姿',
+    UI_Property_Intelligence: '悟性',
+    UI_Property_Strength: '根骨',
+    UI_Property_Money: '灵石',
+    UI_Property_Spirit: '心境',
 
-    UI_Title_Remake: '人生重开模拟器',
-    UI_Title_Subsequent: '这垃圾人生一秒也不想待了',
+    UI_Title_Remake: '素问修仙模拟器',
+    UI_Title_Subsequent: '开启修仙人生',
     UI_Remake: '↻立即重开',
     UI_Thanks: '感谢',
     UI_Achievement: '成就',
@@ -161,5 +161,5 @@ export default ({
     F_TalentSelectNotComplect: '要选满{0}个天赋',
     F_PropertyPointLeft: '你还有 {0} 属性点没有分配完',
     F_TalentReplace: '天赋替换【{source.name}】->【{target.name}】',
-    F_PropertyStr: '颜值{CHR} 智力{INT} 体质{STR} 家境{MNY}'
+    F_PropertyStr: '仙姿{CHR} 悟性{INT} 根骨{STR} 灵石{MNY}'
 });

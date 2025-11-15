@@ -1009,7 +1009,7 @@
                                         {
                                             "x":75,
                                             "type":"Label",
-                                            "props":{"wordWrap":true,"text":"你的父母开始辅导你数学和英语，智力+1","right":0,"name":"labContent","left":240,"leading":44,"fontSize":50,"font":"方正像素12","color":"#ffffff"},
+                                            "props":{"wordWrap":true,"text":"你的父母开始辅导你数学和英语，悟性+1","right":0,"name":"labContent","left":240,"leading":44,"fontSize":50,"font":"方正像素12","color":"#ffffff"},
                                             "nodeParent":88,
                                             "label":"Label(labContent)",
                                             "isDirectory":false,

@@ -239,8 +239,8 @@ class App {
         )
         this.output(
             `\rLoading Complete.
-人生重开模拟器
-这垃圾人生一秒也不想待了
+素问修仙模拟器
+开启修仙人生
 
 键入 \x1B[4m/remake\x1B[24m 开始游戏
 键入 \x1B[4m/help\x1B[24m 获取帮助`,
@@ -410,10 +410,10 @@ class App {
 
                 <TAG>   表示要分配的属性标签
                         可选有
-                            CHR, chr, c, C 表示颜值
-                            INT, int, i, I 表示智力
-                            STR, str, s, S 表示体质
-                            MNY, mny, m, M 表示家境
+                            CHR, chr, c, C 表示仙姿
+                            INT, int, i, I 表示悟性
+                            STR, str, s, S 表示根骨
+                            MNY, mny, m, M 表示灵石
                         必填
 
                 <[+/-]value>
@@ -710,10 +710,10 @@ class App {
 剩余点数 ${this.less()}
 
 属性(TAG)       当前值
-颜值(CHR)         ${CHR}
-智力(INT)         ${INT}
-体质(STR)         ${STR}
-家境(MNY)         ${MNY}
+仙姿(CHR)         ${CHR}
+悟性(INT)         ${INT}
+根骨(STR)         ${STR}
+灵石(MNY)         ${MNY}
         `
     }
 
@@ -740,11 +740,11 @@ class App {
         return `当前属性
 
 属性(TAG)       当前值
-颜值(CHR)         ${property.CHR}
-智力(INT)         ${property.INT}
-体质(STR)         ${property.STR}
-家境(MNY)         ${property.MNY}
-快乐(SPR)         ${property.SPR}`
+仙姿(CHR)         ${property.CHR}
+悟性(INT)         ${property.INT}
+根骨(STR)         ${property.STR}
+灵石(MNY)         ${property.MNY}
+心境(SPR)         ${property.SPR}`
     }
 
     alloc(tag, value) {
@@ -853,11 +853,11 @@ class App {
 
         return [
             '🎉 总评',
-            format('颜值', this.#life.PropertyTypes.HCHR),
-            format('智力', this.#life.PropertyTypes.HINT),
-            format('体质', this.#life.PropertyTypes.HSTR),
-            format('家境', this.#life.PropertyTypes.HMNY),
-            format('快乐', this.#life.PropertyTypes.HSPR),
+            format('仙姿', this.#life.PropertyTypes.HCHR),
+            format('悟性', this.#life.PropertyTypes.HINT),
+            format('根骨', this.#life.PropertyTypes.HSTR),
+            format('灵石', this.#life.PropertyTypes.HMNY),
+            format('心境', this.#life.PropertyTypes.HSPR),
             format('享年', this.#life.PropertyTypes.HAGE),
             format('总评', this.#life.PropertyTypes.SUM),
         ].join('\n')

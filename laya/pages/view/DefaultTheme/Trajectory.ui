@@ -381,7 +381,7 @@
                                         {
                                             "x":75,
                                             "type":"Label",
-                                            "props":{"y":25,"wordWrap":true,"text":"你的父母开始辅导你数学和英语，智力+1","right":0,"name":"labContent","left":220,"leading":25,"fontSize":50,"font":"SimHei","color":"#ffffff"},
+                                            "props":{"y":25,"wordWrap":true,"text":"你的父母开始辅导你数学和英语，悟性+1","right":0,"name":"labContent","left":220,"leading":25,"fontSize":50,"font":"SimHei","color":"#ffffff"},
                                             "nodeParent":88,
                                             "label":"Label(labContent)",
                                             "isDirectory":false,
