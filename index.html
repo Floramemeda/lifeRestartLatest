@@ -32,5 +32,34 @@
         <script type="text/javascript" src="libs/laya/min/laya.ui.min.js"></script>
         <script type="module" src="src/index.js"></script>
     </head>
-    <body style="background:black"></body>
+    <body style="background:black">
+        <!-- ICP 备案信息（固定底部） -->
+<div id="icp-beian">
+  <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">
+    沪ICP备2025151852号-1
+  </a>
+</div>
+
+<style>
+  #icp-beian{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 6px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 16px;
+    z-index: 99999;
+    pointer-events: none; /* 不挡页面操作 */
+  }
+  #icp-beian a{
+    pointer-events: auto; /* 链接可点 */
+    color: #666;
+    text-decoration: none;
+    background: rgba(255,255,255,0.65);
+    padding: 4px 10px;
+    border-radius: 999px;
+  }
+</style>
+    </body>
 </html>
