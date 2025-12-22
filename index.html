@@ -43,22 +43,23 @@
 <style>
   #icp-beian{
     position: fixed;
-    left: 0;
-    right: 0;
-    bottom: 6px;
-    text-align: center;
-    font-size: 12px;
-    line-height: 16px;
+    left: 12px;
+    bottom: calc(10px + env(safe-area-inset-bottom));
     z-index: 99999;
-    pointer-events: none; /* 不挡页面操作 */
+    font-size: 11px;
+    line-height: 14px;
+    opacity: .75;
+    pointer-events: auto; /* 允许点击 */
+    user-select: none;
   }
   #icp-beian a{
-    pointer-events: auto; /* 链接可点 */
-    color: #666;
+    color: rgba(255,255,255,.65);
     text-decoration: none;
-    background: rgba(255,255,255,0.65);
-    padding: 4px 10px;
-    border-radius: 999px;
+    text-shadow: 0 1px 2px rgba(0,0,0,.35);
+  }
+  #icp-beian a:hover{
+    color: rgba(255,255,255,.9);
+    text-decoration: underline;
   }
 </style>
     </body>
