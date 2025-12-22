@@ -567,7 +567,7 @@
                     "child":[
                         {
                             "type":"Image",
-                            "props":{"top":0,"skin":"images/icons/icon_suwen.png","right":0,"left":0,"bottom":0,"anchorY":0.5,"anchorX":0.5},
+                            "props":{"top":0,"skin":"images/icons/icon_github.png","right":0,"left":0,"bottom":0,"anchorY":0.5,"anchorX":0.5},
                             "nodeParent":82,
                             "label":"Image",
                             "isDirectory":false,
